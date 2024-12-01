@@ -1,0 +1,145 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+header {
+	display: flex;
+	height: 15%;
+	flex-direction: column;
+	max-width: 700px;
+	margin: auto;
+	min-width: 600px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.main_heading {
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+}
+.nav_bar {
+	display: flex;
+	justify-content: space-around;
+}
+.nav_bar a {
+	font-size: 18px;
+	letter-spacing: .3px;
+	text-decoration: none;
+	color: black;
+	padding: 20px 0;
+}
+.nav_bar a:hover {
+	border-bottom: 3px solid darkgreen;
+	color: darkgreen;
+}
+/* main part started */
+.category_items {
+	display: flex;
+	margin-top: 20px;
+	max-width: 1100px;
+	margin: auto;
+	margin-bottom: 20px;
+	justify-content: space-between;
+	min-width: 600px;
+	background-color: rgba(128, 128, 128, 0.477);
+}
+.web_design {
+	height: 330px;
+	width: 310px;
+	background-color: rgba(255, 255, 255, 0.844);
+	padding: 25px;
+	border: 1px solid rgba(128, 128, 128, 0.114);
+}
+.web_items {
+	display: flex;
+	padding-bottom: 20px;
+	justify-content: space-between;
+}
+.web_item {
+	font-size: 20px;
+	font-weight: 500;
+}
+.web_number {
+	background-color: aqua;
+	padding: 8px;
+	border-radius: 25%;
+}
+.web_text {
+	color: rgba(128, 128, 128, 0.9);
+	margin-bottom: 30px;
+}
+.images img {
+	height: 50%;
+	width: 100%;
+}
+.banner_container {
+	max-width: 1100px;
+	margin: auto;
+	min-width: 600px;
+	padding: 30px 100px;
+	box-sizing: border-box;
+	color: white;
+	line-height: 1.5;
+}
+.background {
+	background: url('images/back.jpeg');
+	background-size: cover;
+	background-blend-mode: darken;
+}
+.section {
+	display: flex;
+}
+
+.section1 {
+	display: flex;
+	margin-top: 30px;
+}
+.icon {
+	height: 30px;
+	width: 30px;
+	padding: 10px;
+	border: 3px solid white;
+	border-radius: 50%;
+	background-color: aquamarine;
+}
+
+.para1 {
+width: 80%;
+	margin: auto;
+	margin-bottom: 30px;
+}
+.para_heading {
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+.para_text {
+	font-size: 16px;
+}
+.footer_content {
+	display: flex;
+	justify-content: space-evenly;
+}
+.secondText {
+	padding: 5px 10px;
+	border-radius: 20px;
+	border: 1px solid white;
+}
+.line {
+	border: 3px solid aquamarine;
+	position: relative;
+	right: 30px;
+	top: 55px;
+	height: 160px;
+}
+@media only screen and (max-width: 700px) {
+	.line {
+		height: 270px;
+	}
+}
+@media only screen and (max-width: 700px) {
+	.web_item {
+		font-size: 14px;
+	}
+}
